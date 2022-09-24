@@ -1,5 +1,5 @@
+use zero2prod::startup::run;
 use std::net::TcpListener;
-use zero2prod::run;
 
 // we need main to be async, but by default main cannot be async. 
 // async in rust uses futures - (a value that may not be there yet)
